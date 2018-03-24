@@ -45,7 +45,7 @@ h1.academy {
   background-color: lightgrey;
   width: 100%;
   display: flex;
-
+  align-items: center;
 }
 
 .second.section img {
@@ -57,4 +57,112 @@ h1.academy {
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 25%;
+}
+
+.textsecond h1, .textsecond h3 {
+  color: DimGray;
+}
+
+.textsecond h3 {
+  font-weight: bold;
+  font-family: "Libre Baskerville";
+}
+
+.startbutton {
+  background-color: DimGray;
+  color: white;
+  text-align: center;
+  padding: .5rem 0;
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+}
+
+.third.section {
+  display: flex;
+  padding: 2rem 0 2rem 0rem;
+}
+
+.practicing {
+  width: 60%;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.practicing h1 {
+  margin: 2rem 0rem;
+}
+
+.practicing h3, .practicing p {
+  font-size: .90rem;
+  line-height: 1.3rem;
+}
+
+.practicing img {
+  display: block;
+  width: 100%;
+}
+
+
+.practicingright {
+  position: relative;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.smallimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallimage img {
+  width: 35%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+
+.textcontent {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.smallimage.guest {
+  background-color: lightgrey;
+}
+
+.thesisvideo video {
+  max-width: 100%;
+}
+
+/*start of 6 boxes section  */
+
+.startlearning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  background-color: ghostwhite;
+
+}
+
+.startlearningimages {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 4.5rem;
+}
+
+.smallbox {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.smallbox img {
+  display: block;
+  height: auto;
+  width: 35%;
 }
