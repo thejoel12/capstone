@@ -1,0 +1,60 @@
+/*universal styles  */
+body {
+  font-size: 16px;
+}
+
+h1, h3 {
+  font-family: "Libre Franklin";
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p, a, span {
+  font-family: "Libre Baskerville";
+}
+
+/* header section css  */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5rem;
+  height: 4rem;
+}
+
+.logo {
+  display: flex;
+}
+
+h1.academy {
+  color: lightgrey;
+  font-weight: normal;
+}
+
+.nav span {
+  padding-left: 1rem;
+}
+
+/* second section css  */
+
+.second.section {
+  background-color: lightgrey;
+  width: 100%;
+  display: flex;
+
+}
+
+.second.section img {
+  padding: 2rem 1.5rem;
+  width: 60%;
+}
+
+.textsecond {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
