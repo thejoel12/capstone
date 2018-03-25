@@ -39,6 +39,31 @@ h1.academy {
   padding-left: 1rem;
 }
 
+.header i {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+.header .logo h1 {
+  display: none;
+}
+
+.nav {
+  display: none;
+}
+
+.header i {
+  display: flex;
+}
+
+.header {
+  justify-content: space-around;
+  height: 4rem;
+}
+
+}
+
 /* second section css  */
 
 .second.section {
@@ -76,6 +101,34 @@ h1.academy {
   padding: .5rem 0;
   font-family: "Libre Baskerville";
   font-weight: 400;
+}
+
+@media only screen and (max-width: 480px) {
+
+.second.section {
+  flex-direction: column;
+
+}
+
+.second.section img {
+  width: 100%;
+  padding: 0 0 0 0;
+}
+
+.textsecond {
+  width: 100%;
+  padding: 2rem 0 2rem 1rem;
+  justify-content: center;
+}
+
+.textsecond h3 {
+  margin: 2rem 0 1.5rem 0;
+}
+
+.startbutton {
+  max-width: 85%;
+}
+
 }
 
 .third.section {
@@ -137,6 +190,53 @@ h1.academy {
 .thesisvideo video {
   max-width: 100%;
 }
+
+@media only screen and (max-width: 480px) {
+.practicing {
+  display: none;
+}
+
+.practicingright {
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.smallimage.guest {
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+.smallimage {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.smallimage img {
+  width: 100%;
+  margin: 0;
+  max-height: 10rem;
+  display: inline;
+}
+
+.textcontent {
+  padding: 1rem;
+  width: 100%;
+}
+
+.textcontent h3 {
+  font-size: 1rem;
+}
+
+.textcontent p, .textcontent a {
+  font-size: .9rem;
+}
+
+
+}
+
 
 /*start of 6 boxes section  */
 
@@ -216,6 +316,7 @@ h1.academy {
   text-align: left;
   width: 60%;
   margin: 2rem 1.5rem 1.5rem 1.5rem;
+  padding: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -264,4 +365,6 @@ footer {
   justify-content: space-between;
   padding: 1rem 1.5rem 3rem 1.5rem;
   border-top: 1px solid lightgrey;
+  font-size: .75rem;
+  opacity: .9;
 }
