@@ -144,25 +144,50 @@ h1.academy {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   max-width: 100%;
   background-color: ghostwhite;
+}
 
+.startlearning h1 {
+  padding-top: 2rem;
 }
 
 .startlearningimages {
   display: flex;
   flex-wrap: wrap;
-  padding: 2rem 4.5rem;
+  justify-content: center;
+  padding: .5rem 3rem;
 }
 
 .smallbox {
   background-color: white;
   display: flex;
   flex-direction: column;
+  max-width: 25%;
+  margin: 1.5rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .smallbox img {
   display: block;
   height: auto;
-  width: 35%;
+  width: 100%;
+}
+
+.smallbox h3, .smallbox p {
+  margin-left: 1rem;
+}
+
+.smallbox h3 {
+  margin-top: 1rem;
+}
+
+.smallbox p {
+  margin-top: .5rem;
+  font-size: .75rem;
+}
+
+.smallbox p.bottom {
+  margin-bottom: 1.5rem;
 }
