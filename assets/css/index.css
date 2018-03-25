@@ -166,7 +166,7 @@ h1.academy {
   flex-direction: column;
   max-width: 25%;
   margin: 1.5rem;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .smallbox img {
@@ -190,4 +190,78 @@ h1.academy {
 
 .smallbox p.bottom {
   margin-bottom: 1.5rem;
+}
+
+/*start of thesis section  */
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+
+
+.thesiscontent {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.thesisvideo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 60%;
+  margin: 2rem 1.5rem 1.5rem 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thesisvideo p {
+  font-size: .75rem;
+  line-height: 1.2rem;
+}
+
+.thesisside {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.thesisside .thesissmallbox {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .thesissmallbox img {
+  width: 35%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+
+.thesissmallbox .textcontent {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: .75rem;
+  width: 65%;
+}
+
+.thesissmallbox.top {
+  background-color: lightgrey;
+}
+
+/*footer  */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 3rem 1.5rem;
+  border-top: 1px solid lightgrey;
 }
