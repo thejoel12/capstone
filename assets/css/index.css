@@ -17,7 +17,7 @@ p, a, span {
 }
 
 /* header section css  */
-.header {
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -31,7 +31,7 @@ p, a, span {
 }
 
 h1.academy {
-  color: lightgrey;
+  color: #CCCCCC;
   font-weight: normal;
 }
 
@@ -39,13 +39,13 @@ h1.academy {
   padding-left: 1rem;
 }
 
-.header i {
+header i {
   display: none;
 }
 
 @media only screen and (max-width: 760px) {
 
-.header .logo h1 {
+header .logo h1 {
   display: none;
 }
 
@@ -53,11 +53,11 @@ h1.academy {
   display: none;
 }
 
-.header i {
+header i {
   display: flex;
 }
 
-.header {
+header {
   justify-content: space-around;
   height: 4rem;
 }
@@ -67,7 +67,7 @@ h1.academy {
 /* second section css  */
 
 .second.section {
-  background-color: lightgrey;
+  background-color: #CCCCCC;
   width: 100%;
   display: flex;
   align-items: center;
@@ -86,7 +86,7 @@ h1.academy {
 }
 
 .textsecond h1, .textsecond h3 {
-  color: DimGray;
+  color: #666666;
 }
 
 .textsecond h3 {
@@ -95,7 +95,7 @@ h1.academy {
 }
 
 .startbutton {
-  background-color: DimGray;
+  background-color: #666666;
   color: white;
   text-align: center;
   padding: .5rem 0;
@@ -184,7 +184,7 @@ h1.academy {
 }
 
 .smallimage.guest {
-  background-color: lightgrey;
+  background-color: #CCCCCC;
 }
 
 .thesisvideo video {
@@ -326,7 +326,7 @@ h1.academy {
 }
 
 .smallbox {
-  background-color: DimGray;
+  background-color: #666666;
   color: white;
   width: 100%;
   max-width: 100%;
@@ -402,7 +402,7 @@ h1.academy {
 }
 
 .thesissmallbox.top {
-  background-color: lightgrey;
+  background-color: #CCCCCC;
 }
 
 @media only screen and (max-width: 760px) {
@@ -435,7 +435,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem 3rem 1.5rem;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid #CCCCCC;
   font-size: .75rem;
   opacity: .9;
 }
