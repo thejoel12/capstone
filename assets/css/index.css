@@ -43,7 +43,7 @@ h1.academy {
   display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 760px) {
 
 .header .logo h1 {
   display: none;
@@ -103,7 +103,7 @@ h1.academy {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 760px) {
 
 .second.section {
   flex-direction: column;
@@ -191,7 +191,12 @@ h1.academy {
   max-width: 100%;
 }
 
-@media only screen and (max-width: 480px) {
+.smallimage img:nth-child(2n+0) {
+  display: none;
+}
+
+
+@media only screen and (max-width: 760px) {
 .practicing {
   display: none;
 }
@@ -209,21 +214,33 @@ h1.academy {
 
 .smallimage {
   flex-direction: column;
-  align-items: flex-start;
   width: 100%;
   padding-bottom: 2rem;
+
 }
 
 .smallimage img {
   width: 100%;
+  height: auto;
   margin: 0;
   max-height: 10rem;
   display: inline;
 }
 
+.smallimage img:first-child {
+  display: none;
+}
+.smallimage img:nth-child(2n+0) {
+  display: block;
+  height: auto;
+  width: auto;
+  margin: auto;
+
+}
+
 .textcontent {
-  padding: 1rem;
-  width: 100%;
+  margin-left: 1rem;
+
 }
 
 .textcontent h3 {
@@ -292,6 +309,36 @@ h1.academy {
   margin-bottom: 1.5rem;
 }
 
+@media only screen and (max-width: 760px) {
+
+.smallbox img, .smallbox p {
+  display: none;
+}
+
+.startlearningimages {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0 2rem 0;
+}
+
+.startlearning h1 {
+  padding: 0;
+}
+
+.smallbox {
+  background-color: DimGray;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  margin: .3rem 0 0 0;
+}
+
+.smallbox h3 {
+  padding: 1rem;
+}
+
+}
+
 /*start of thesis section  */
 
 .thesis {
@@ -357,6 +404,30 @@ h1.academy {
 .thesissmallbox.top {
   background-color: lightgrey;
 }
+
+@media only screen and (max-width: 760px) {
+.thesisside, .thesiscontent h1, .thesiscontent p, footer .terms {
+  display: none;
+}
+
+.thesisvideo {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.thesis {
+  padding: 2rem 0 1.5rem 0;
+}
+
+footer {
+  padding: 1rem 0 1rem 0;
+}
+
+
+}
+
 
 /*footer  */
 
